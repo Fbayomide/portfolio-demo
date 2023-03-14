@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,400&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat';
+}
+
+body{
+    background-color: rgb(10, 10, 10);
+}
+
+.nav-container{
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.nav-container img{
+    width: 20px;
+    height: 20px;
+}
+
+.nav-link-container{
+    display: flex;
+    gap: 5px;
+}
+.nav-link-container a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: small;
+    font-weight: medium;
+}
+
+.nav-link-container a:hover{
+    color: brown;
+}
+
+.nav-link-container a:active{
+    background-color: white;
+    color: brown;
+    padding: 5px;
+    font-weight: bold;
+}
+.intro{
+    background-color: rgb(10, 10, 10);
+    height: auto;
+    width: 100%;
+}
+.intro-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 100px; */
+    padding: 20px;
+}
+
+.img-cont img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+}
+/* .bg-text{
+    font-size:45px;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    color: grey;
+    line-height: 150%;
+} */
+
+.intro-text p{
+    color: white;
+    font-weight: normal;
+}
+
+.intro-name{
+    color: brown;
+    font-weight: bolder;
+}
+
+.intro-profession{
+    color: white;
+    font-weight: normal;
+    font-size: x-small;
+}
+
+.projects{
+    background-color: rgb(10, 10, 10);
+    width: 100%;
+    height: auto;
+}
+
+.projects h2{
+    color: brown;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.project1, .project2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.logo-project, .branding-project, .sm-project, .web-project{
+    
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+}
+.logo-project{
+    background-image: url(./Nibbles\ chops.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.branding-project{
+    background-image: url(./La\ Toms\ Food\ Pack.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sm-project{
+    background-image: url(./BEYOND\ BAGS\ AFAIRS.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.web-project{
+    background-image: url(./SOLOPP\ ROADMAP.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.logo-project p , .branding-project p, .sm-project p, .web-project p{
+    margin-top: 70%;
+    padding-inline: 10px;
+    color: white;
+    font-size: medium;
+}
+
+.logo-project a , .branding-project a, .sm-project a, .web-project a{
+    padding-inline: 10px;
+    color: white;
+    font-size: x-small;
+}
+
+.mp{
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    color: white;
+    font-size: small;
+}
+
+.principles{
+    background-color: rgb(10, 10, 10);
+    height: auto;
+    width: 100%;
+}
+
+.principles h2{
+    color: brown;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.principles1, .principles2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    color: white;
+}
+
+.obj1, .obj2, .obj3, .obj4, .obj5{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.obj1 p, .obj2 p, .obj3 p, .obj4 p, .obj5 p{
+    padding: 5px;
+    font-size: small;
+}
+
+.proficiency{
+    background-color: rgb(10, 10, 10);
+}
+.proficiency h2{
+    color: brown;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.proficiency-softwares{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.proficiency-softwares img{
+    width: 30px;
+    height: 30px;
+}
+
+.reviews{
+    background-color: rgb(10, 10, 10);
+    padding: 20px;
+}
+.reviews h2{
+    color: brown;
+    text-align: center;
+}
+
+.review1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 15px;
+}
+
+.client1, .client2, .client3{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+blockquote{
+    font-size: medium;
+}
+
+.client-name{
+    font-weight: bold;
+}
+
+.contact{
+    background-color: black;
+}
+
+.contact h2{
+    color: brown;
+    text-align: center;
+    padding-top: 20px;
+}
+.contact p{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* .email, .whatsapp, .linkdn, .insta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+.social-media img{
+    width: 20px;
+    height: 20px;
+}
+
+/* .social-media a{
+    text-decoration: none;
+    color: white;
+    font-size: x-small;
+} */
+
+.copyright{
+    font-size: x-small;
+}
+
+@media screen and (min-width:500px) {
+    .nav-link-container{
+        display: flex;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    
+    .intro-text p{
+        font-size: 30px;
+    }
+
+    .intro-profession{
+        font-size: medium;
+    }
+
+    .img-cont img{
+        width: 200px;
+        height: 200px;
+        border: 1px solid white;
+    }
+
+    .logo-project, .branding-project, .sm-project, .web-project{
+    
+        width: 300px;
+        height: 300px;
+    }
+
+    .logo-project p , .branding-project p, .sm-project p, .web-project p{
+        margin-top: 80%;
+        
+    }
+    
+    .logo-project a , .branding-project a, .sm-project a, .web-project a{
+        padding-inline: 10px;
+        color: white;
+        font-size: small;
+    }
+
+    .proficiency-softwares{
+        gap: 40px;
+    }
+
+    .contact{
+        width: 100%;
+    }
+    .nav-container, .intro, .reviews, .projects, .principles, .proficiency{
+        padding-inline: 50px;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    
+    /* body{
+        padding-inline: 100px;
+    } */
+
+    .nav-container img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .nav-link-container{
+        display: flex;
+        justify-content: space-between;
+        gap: 80px;
+    }
+
+    .intro-text p{
+        font-size: 30px;
+    }
+
+    .intro-profession{
+        font-size: normal;
+    }
+
+    .img-cont img{
+        width: 300px;
+        height: 300px;
+        border: 1px solid white;
+    }
+    
+    .project-cont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .project1, .project2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        padding: 20px;
+    }
+
+    .logo-project, .branding-project, .sm-project, .web-project{
+    
+        width: 150px;
+        height: 150px;
+    }
+
+    .proficiency-softwares{
+        gap: 80px;
+    }
+
+    .principles1, .principles2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .review1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap:20px
+    }
+    .contact{
+        width: 100%;
+    }
+
+    h2{
+        font-size: xx-large;
+    }
+
+    .nav-container, .intro, .reviews, .projects, .principles, .proficiency{
+        padding-inline: 200px;
+    }
+
+    .nav-link-container a{
+        font-weight: bold;
+    }
+
+    .obj1 , .obj2 , .obj3 , .obj4 , .obj5 {
+        width: 300px;
+        height: 150px;
+    }
+}
+
+@media screen and (min-width:1500px) {
+    .nav-container, .intro, .reviews, .projects, .principles, .proficiency{
+        padding-inline: 300px;
+    }
+
+    .logo-project, .branding-project, .sm-project, .web-project{
+    
+        width: 200px;
+        height: 200px;
+    }
+
+    .proficiency-softwares{
+        gap: 60px;
+    }
+
+    .project-cont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 70px;
+    }
+
+    .img-cont img{
+        width: 400px;
+        height: 400px;
+        border: 1px solid white;
+    }
+
+    .intro-text p{
+        font-size: 50px;
+    }
+
+    .intro-profession{
+        font-size: large;
+    }
+
+    .nav-link-container a{
+        font-weight: bold;
+    }
+
+    .obj1 , .obj2 , .obj3 , .obj4 , .obj5 {
+        width: 400px;
+        height: 200px;
+    }
+}
